@@ -1,4 +1,4 @@
-| Name  | github handler | 
+| Name  | github handle | 
 |:---:|:---:|
 | Haoyue Shuai | haoyueshuai |
 | Jiayi Zhou | JiayiHelenZhou |
@@ -9,3 +9,4 @@
 | Yuechen Liu | Yuechen-Liu |
 | Amanda Tsai | at-crx |
 | Jingyi Zhang | jingyi-z419 |
+| Rio Yan | rioyxw |
