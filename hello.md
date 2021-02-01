@@ -1,6 +1,5 @@
 | Name  | github handler | 
 |:---:|:---:|
-| Haoyue Shuai | haoyueshuai |
 | Jiayi Zhou | JiayiHelenZhou |
 | Yineng Chen | YinengChen |
 | Ting Lian | TingLian |
@@ -13,3 +12,4 @@
 | Mumei Zhang | mumeizhang |
 | Yutian Luo | nickluo1313 |
 | Phoebe mo | phoebemo9 |
+| Yihan Feng | YihanFeng18 |
