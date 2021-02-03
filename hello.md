@@ -1,6 +1,5 @@
 | Name  | github handle | 
 |:---:|:---:|
-| Haoyue Shuai | haoyueshuai |
 | Jiayi Zhou | JiayiHelenZhou |
 | Yineng Chen | YinengChen |
 | Ting Lian | TingLian |
@@ -13,5 +12,6 @@
 | Huijun Xiao | Clairexiao1 |
 | Mumei Zhang | mumeizhang |
 | Yutian Luo | nickluo1313 |
+| Phoebe mo | phoebemo9 |
 | Yihan Feng | YihanFeng18 |
 | Yu Liu | yuliu426 |
