@@ -1,4 +1,4 @@
-| Name  | github handle | 
+| Name  | github handle |
 |:---:|:---:|
 | Jiayi Zhou | JiayiHelenZhou |
 | Yineng Chen | YinengChen |
@@ -18,3 +18,4 @@
 | Yu Liu | yuliu426 |
 | Chong Li | chong-cyber |
 | Lily Wang | fw2260 |
+| Tianyi Liu | lamanda0227 |
