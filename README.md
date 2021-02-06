@@ -55,6 +55,7 @@ Methods with applications:
 Applied data analysis:
 
 - Rare variant association studies with exome data in Alzheimer's disease families
+- Linkage analysis for Alzheimer's disease families
 - Gene-gene and gene-environment interaction analysis in UK Biobank data for Asthma
 - Pleiotropy and mediation analysis in UK Biobank data
 - Development of polygenic risk score prediction pipeline
