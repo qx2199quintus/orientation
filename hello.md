@@ -19,3 +19,4 @@
 | Chong Li | chong-cyber |
 | Lily Wang | fw2260 |
 | Tianyi Liu | lamanda0227 |
+| Elizaveta Latash | Miss-Defy |
