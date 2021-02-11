@@ -202,7 +202,7 @@ summary(fit_1)
 
 **Q10:** Please create a new variable to indicate cars having MPG greater than 23 as 1, otherwise 0, then use logistic regrssion via `glm()` function to analyze association between weight and this new variable you just created. Please comment on what you find.
 
-**Q11:** Find the `Estimates` from your asociation results summary. How do you interpret the estimated effects of weight in the context of linear regression, and in the context of logistic regression?
+**Q11:** Find the `Estimates` from your association results summary. How do you interpret the estimated effects of weight in the context of linear regression, and in the context of logistic regression?
 
 ```{r}
 #YOUR CODE
