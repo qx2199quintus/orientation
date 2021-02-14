@@ -90,8 +90,8 @@ head(sub_UKBB) # show part of the data
 
 **Q1:** How many females and males are there in this data? Please show your code below how these numbers are computed.
  
-**Q2:** Can you tell what kind of trait it is for tinnitus? 
-A.Binary trait. B. Continuous trait. 
+**Q2:** What type of trait do you think best describes tinnitus as a phenotype? 
+A.Binary B. Continuous C. Ordinal 
 
 **Q3:** Recode f.4803
 
@@ -183,11 +183,11 @@ Please modify codes above to extract all the controls and keep only these column
 
 ### Association testing via regression analysis
 
-To identify genetic factors that may be involved in this trait (tinnitus), we would need to find the association between the genotype and the phenotype of each individual. 
+To identify genetic factors that may be involved in this trait (tinnitus), we would need to find the association between the genotype and the phenotype. 
 Regression analysis is the basis of many association analysis. Instead of overwhelming you with huge genotype data, we use here a simple dataset for regression analysis to demonstrate what association studies look like.
 
 
-We fit below simple linear model with 2 variables from a data-set to see their relationship. For example `mpg` vs. `weight` in this Auto data-set. 
+We fit below simple linear model with 2 variables from a data-set to see their relationship. For example `mpg` vs. `weight` in this `ISLR::Auto` data-set. 
 
 **Q9:** Is there association between `mpg of the car` and `weight of the car`? If so, it appearing to be positive or negative? Is the association significant and why? 
 
@@ -202,7 +202,7 @@ summary(fit_1)
 
 **Q10:** Please create a new variable to indicate cars having MPG greater than 23 as 1, otherwise 0, then use logistic regrssion via `glm()` function to analyze association between weight and this new variable you just created. Please comment on what you find.
 
-**Q11:** Find the `Estimates` from your asociation results summary. How do you interpret the estimated effects of weight in the context of linear regression, and in the context of logistic regression? (this question might be a bit challenging if you are not familiar with regression analysis; don't sweat if you cannot find the answer for it).
+**Q11:** Find the `Estimates` from your association results summary. How do you interpret the estimated effects of weight in the context of linear regression, and in the context of logistic regression?
 
 ```{r}
 #YOUR CODE
