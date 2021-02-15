@@ -47,7 +47,7 @@ jnbinder --root docs/ipynb
 ```
 
 The first time you run the command above, a website template will be configured under `docs/ipynb` and the program will quit on error with a line of prompt instructing you to edit 
-a file called `config.yml`. Please open this file with text editor and uncomment and configure `name`, `repo` and `footer` as you see fit, and set `add_commit_info` to `False` for now. 
+a file called `config.yml`. Please open this file with text editor and uncomment to configure `name`, `repo` and `footer` as you see fit, and set `add_commit_info` to `False` for now. 
 Finally for `include_dir` please specify `["notebook", "workflow"]` to include notebooks under these folders to the website to be generated. 
 
 Now please run the command above again to generate IPython based HTML files to `docs/ipynb` folder. You can view `docs/ipynb/index.html` in your web browser, particularly please click and view the tabs "Notebook" and "Workflow".
