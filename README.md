@@ -50,15 +50,15 @@ The first time you run the command above, a website template will be configured 
 a file called `config.yml`. Please open this file with text editor and uncomment and configure `name`, `repo` and `footer` as you see fit, and set `add_commit_info` to `False` for now. 
 Finally for `include_dir` please specify `["notebook", "workflow"]` to include notebooks under these folders to the website to be generated. 
 
-Now please run the command above again to generate IPython based HTML files to `docs/ipynb` folder. You can view `docs/ipynb/index.html` in your web browser.
+Now please run the command above again to generate IPython based HTML files to `docs/ipynb` folder. You can view `docs/ipynb/index.html` in your web browser, particularly please click and view the tabs "Notebook" and "Workflow".
 
-## Submitting your work
+## Submission
 
 After you have completed all tasks please make a tarball for your `docs` folder and email it to `wang.gao@columbia.edu` for us to review.
 
 ## Moving forward
 
-After you have completed the tasks please notify us (wang.gao@columbia.edu) with a link to your fork repository on github. We will review and determine a fit for you based on your response. Projects available for Spring 2021 include:
+Upon submission of your work, we will review and determine a fit for you based on your response. Projects available for Spring 2021 include:
 
 Methods with applications:
 
