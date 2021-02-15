@@ -14,7 +14,7 @@ In this task you are going to work with git from command shell, and install basi
 
 Most of our work will be saved and shared on github in public or private repositories. If you have not used git in the past, please follow the [instructions here for a 5 minutes git tutorial](http://statgen.us/lab-wiki/orientation/5m-git).
 
-As the next step please [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository, add your name to the R markdown file named `hello.Rmd`, commit it to github with a customized commit message, eg, "Add my name and github handle", and [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) so we can see your update and incorporate it to the repository.
+As the next step please [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository, add your name to the Markdown file named `hello.md`, commit it to github with a customized commit message, eg, "Add my name and github handle", and [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) so we can see your update and incorporate it to the repository.
 
 ### Analysis software setup
 
@@ -38,16 +38,19 @@ Organizing and communicating your work with others is essential to your success 
 For every project we require the analysis written in Rmd and IPython notebooks to be converted to a research website that will either be hosted on github (a service github provides) or accessed locally on one's web browser.
 
 We will use [workflowr](https://github.com/jdblischak/workflowr) to organize the R analysis. Please follow `workflowr` instructions to convert the Rmd files under `analysis/` folder into HTML based website under a directory called `docs`.
+You should find a file `docs/index.html` and view it in your web browser once you successfully build the website.
 
-We will use [jnbinder](https://github.com/vatlab/jnbinder) program to organize the Python analysis. Please follow the section "Run from a docker image" to run `jnbinder` to compile files under `notebook` and `workflow` folders into HTML based website,
-by specifying these folder names in the `include_dir` in `config.yml`. Please specify `homepage: hello.Rmd` in `config.yml` to as the homepage for the website.
-To avoid conflict with the existing R based website under `docs`, please use the command below:
+We will use [jnbinder](https://github.com/vatlab/jnbinder) program to organize the Python analysis. Please follow the section "Run from a docker image" **up to step 3** and return here, then type:
 
 ```
 jnbinder --root docs/ipynb
 ```
 
-to generate your IPython based HTML files to `docs/ipynb` folder instead.
+The first time you run the command above, a website template will be configured under `docs/ipynb` and the program will quit on error with a line of prompt instructing you to edit 
+a file called `config.yml`. Please open this file with text editor and uncomment and configure `name`, `repo` and `footer` as you see fit, and set `add_commit_info` to `False` for now. 
+Finally for `include_dir` please specify `["notebook", "workflow"]` to include notebooks under these folders to the website to be generated. 
+
+Now please run the command above again to generate IPython based HTML files to `docs/ipynb` folder. You can view `docs/ipynb/index.html` in your web browser.
 
 ## Submitting your work
 
