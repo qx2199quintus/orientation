@@ -32,13 +32,11 @@ pacman::p_load(dplyr, ggplot2, plyr, tidyverse, pander, ggpubr, rapportools, kni
 This exercise was adapted by Haoyue Shuai from one of her analysis on phenotype data in preparation for genetic association studies. Don't panic if you're just starting to learn R. The exercise does not involve writing serious software programs in R, but rather to execute some interactive and intuitive commands
 to get some preliminary phenotype data analysis done. There will be some questions throughout that you can answer using your own words (and some data science intuition) with a few sentences. Some of them involve writing additional codes but you can mostly find and modify codes we provide as examples to address the questions. You do not have to answer all the questions but we strongly encourage you to make an attempt.
 
-If you use Jupyter Notebook, please show your answers, codes and plots in the notebook when needed. If you work directly with this Rmd file and use R studio, please convert it into HTML format for us to review (simply by clicking the knit icon in your Rstudio toolbar). 
-Please save the Jupyter Notebook or the Rmd + HTML files to a different file name (with your name in the file name) and email them to wang.gao@columbia.edu. Please **do not** push it back to your repo on github. Please don't hesitate to contact us for any scientific or technical blockers, if you cannot find a solution yourself online.
-
+Please save your work as you complete them, but **do not** push your version of the file back to your forked github repo. Instead please follow the instructions in Task 4 to report the analysis back to us.
 
 ### Dataset 
 
-The data-set can be found as `UKB_Phenotype/data_cleaned.csv`.
+The data-set can be found as `data/UKB_Phenotype/data_cleaned.csv`.
 
 \newpage
 

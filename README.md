@@ -2,9 +2,9 @@
 
 This tutorial & exercise is designed for trainees interested in joining our lab. It reflects our expected computing skills using R, Python, Linux shell commands and bioinformatics workflow languages.
 Even if you lack the skills for one or more of the languages at the time you start this tutorial, we believe the learning curve for new skills enough to complete the exercises is reasonable given a few hours of effort. Still,
-please do not hesitate to contact us (wang.gao@columbia.edu) if there is a blocker as you go through the material. 
+please do not hesitate to contact us (wang.gao@columbia.edu) if there is a blocker as you go through the material.
 
-An additional note on effort: for student interns and research assistants we expect a minimum of 10hrs/week effort.
+An additional note on effort: for student interns and research assistants we expect a minimum of 10hrs/week effort. Successful completion of this exercise in a week's time is an indication of the efforts you are able to devote.
 
 ## Task 1: Unix command shell and command tools
 
@@ -14,7 +14,7 @@ In this task you are going to work with git from command shell, and install basi
 
 Most of our work will be saved and shared on github in public or private repositories. If you have not used git in the past, please follow the [instructions here for a 5 minutes git tutorial](http://statgen.us/lab-wiki/orientation/5m-git).
 
-As the next step please [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository, add your name to the file named `hello.md`, commit it to github with a customized commit message, eg, "Add my name and github handle", and [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) so we can see your update and incorporate it to the repository.
+As the next step please [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository, add your name to the R markdown file named `hello.Rmd`, commit it to github with a customized commit message, eg, "Add my name and github handle", and [create a pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) so we can see your update and incorporate it to the repository.
 
 ### Analysis software setup
 
@@ -26,12 +26,32 @@ Please follow this [setup instruction](http://statgen.us/lab-wiki/orientation/ju
 
 This task is an example of a bioinformatics workflow developed at our group. It uses IPython notebook (with JupyterLab IDE as a recommendation), and runs an [SoS kernel for bioinformatics workflows](https://vatlab.github.io/sos-docs/).
 
-Please find the example notebook file `orientation.ipynb`, follow the instructions and complete the Quiz at the end of the notebook. 
+Please find the example notebook file `notebook/orientation.ipynb`, follow the instructions and complete the Quiz at the end of the notebook. 
 
 ## Task 3:  R programming 
 
-Please follow the instructions and complete the R exercise `orientation.Rmd`. `Rmd` stands for R Markdown. They are text file with R code and narratives that you can open and analyze using software such as Rstudio, 
-or, you can also start a Jupyter Notebook and copy the contents to the notebook to analyze. If you use Jupyter Notebook please separate the markdown text and R codes into different cells.
+Please follow the instructions and complete the R exercise `analysis/orientation.Rmd`. `Rmd` stands for R Markdown. They are text file with R code and narratives that you can open and analyze using software such as Rstudio.
+
+## Task 4: Report your work
+
+Organizing and communicating your work with others is essential to your success in conducting reproducible computational research. 
+For every project we require the analysis written in Rmd and IPython notebooks to be converted to a research website that will either be hosted on github (a service github provides) or accessed locally on one's web browser.
+
+We will use [workflowr](https://github.com/jdblischak/workflowr) to organize the R analysis. Please follow `workflowr` instructions to convert the Rmd files under `analysis/` folder into HTML based website under a directory called `docs`.
+
+We will use [jnbinder](https://github.com/vatlab/jnbinder) program to organize the Python analysis. Please follow the section "Run from a docker image" to run `jnbinder` to compile files under `notebook` and `workflow` folders into HTML based website,
+by specifying these folder names in the `include_dir` in `config.yml`. Please specify `homepage: hello.Rmd` in `config.yml` to as the homepage for the website.
+To avoid conflict with the existing R based website under `docs`, please use the command below:
+
+```
+jnbinder --root docs/ipynb
+```
+
+to generate your IPython based HTML files to `docs/ipynb` folder instead.
+
+## Submitting your work
+
+After you have completed all tasks please make a tarball for your `docs` folder and email it to `wang.gao@columbia.edu` for us to review.
 
 ## Moving forward
 
